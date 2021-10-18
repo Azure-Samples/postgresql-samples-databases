@@ -1,57 +1,17 @@
-# Project Name
+# Sample Databases for Azure Database for PostgreSQL flexible server 
 
-(short, 1-3 sentenced, description of the project)
+There are two sample database options for you to use: 
+- [Adeventure works](./postgresql-adventureworks) : Use this schema to create a adventure works database
 
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
+**You can use the runtime of your choice (Python, PHP, .NET , Node JS etc) to build using these samples.** Note that this repository only contains sample databases schema with some data. It does not contain any application code. 
 
 ## Getting Started
+Follow the steps below to install these scripts out on your server. 
 
 ### Prerequisites
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
+- You need an Azure subscription. Sign up for Free trial and you can get 12 months free with [Azure Database for PostgreSQL Flexilbe server](https://docs.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-deploy-on-azure-free-account).
+- Install a client tool for Postgres - [psql](https://www.postgresql.org/docs/current/app-psql.html) , [pgadmin ](https://www.pgadmin.org/)
 
 ## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+Azure Database for MySQL Flexible Server [Documentation](https://docs.microsoft.com/en-us/azure/mysql/flexible-server/)
