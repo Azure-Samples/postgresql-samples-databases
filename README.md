@@ -1,7 +1,8 @@
 # Sample Databases for Azure Database for PostgreSQL flexible server 
 
 There are two sample database options for you to use: 
-- [Adeventure works](./postgresql-adventureworks) : Use this schema to create a adventure works database
+- [Adeventure works](./postgresql-adventureworks) : Use this sample to create a adventure works databases . 
+- [Polls database schema](./polls-database-schema) : Use this sample to create a lightweight polls application. This sample has only the database schema. 
 
 **You can use the runtime of your choice (Python, PHP, .NET , Node JS etc) to build using these samples.** Note that this repository only contains sample databases schema with some data. It does not contain any application code. 
 
