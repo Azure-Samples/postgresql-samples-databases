@@ -93,16 +93,11 @@ CREATE TABLE poll_answer (
     REFERENCES poll (id)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-    CONSTRAINT fk_answer_question
-  FOREIGN KEY (questionId)
-  REFERENCES poll_question (id)
-  ON DELETE NO ACTION
-  ON UPDATE NO ACTION,
   CONSTRAINT fk_answer_question
-  FOREIGN KEY (questionId)
-  REFERENCES poll_question (id)
-  ON DELETE NO ACTION
-  ON UPDATE NO ACTION);
+    FOREIGN KEY (questionId)
+    REFERENCES poll_question (id)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
 
 CREATE INDEX idx_answer_poll ON poll_answer (pollId ASC);
 CREATE INDEX idx_answer_question ON poll_answer (questionId ASC);
