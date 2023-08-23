@@ -1,4 +1,4 @@
-# Sample Databases for Azure Database for PostgreSQL flexible server 
+# Sample Databases for Azure Database for PostgreSQL Flexilbe Server 
 
 There are two sample database options for you to use: 
 - [Adeventure works](./postgresql-adventureworks) : Use this sample to create a adventure works databases . 
@@ -11,7 +11,7 @@ Follow the steps below to install these scripts out on your server.
 
 ### Prerequisites
 
-- You need an Azure subscription. Sign up for Free trial and you can get 12 months free with [Azure Database for PostgreSQL Flexilbe server](https://docs.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-deploy-on-azure-free-account).
+- You need an Azure subscription. Sign up for Free trial and you can get 12 months free with [Azure Database for PostgreSQL Flexilbe Server](https://docs.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-deploy-on-azure-free-account).
 - Install a client tool for Postgres - [psql](https://www.postgresql.org/docs/current/app-psql.html) , [pgadmin ](https://www.pgadmin.org/)
 
 ## Resources
